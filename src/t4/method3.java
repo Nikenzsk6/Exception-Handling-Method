@@ -25,8 +25,8 @@ public class method3 {
         
     
     }void Lingkaran(double jari2){
-        JOptionPane.showMessageDialog(null,"Mencari Luas Linkaran");
-        jari2 = Integer.parseInt(JOptionPane.showInputDialog("Masukkan jari-jari (cm)"));
+        JOptionPane.showMessageDialog(null,"Mencari Luas Lingkaran");
+        jari2 = Double.parseDouble(JOptionPane.showInputDialog("Masukkan jari-jari (cm)"));
         double  Luas_Ling = 3.14 * Math.pow(jari2, 2);
         JOptionPane.showMessageDialog(null, "Luas Lingkaran "+Luas_Ling+"cm.");
         
